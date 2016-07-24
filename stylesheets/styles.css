@@ -37,25 +37,19 @@ p {
 }
 
 .chicken {
-  float:right;
-  border-bottom: 2px solid;
-  border-left: 2px solid;
+  margin: 0 auto;
   background-color: #cc88cc;
 }
 
 .beef {
-  float:right;
+  margin: 0 auto;
   color: white;
-  border-bottom: 2px solid;
-  border-left: 2px solid;
   background-color: #c4351f;
 
 }
 
 .sushi {
-  float:right;
-  border-bottom: 2px solid;
-  border-left: 2px solid;
+  margin: 0 auto;
   background-color: #edda49;
 }
 
