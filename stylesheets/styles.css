@@ -66,8 +66,7 @@ p {
 }
 
 .navbar-brand {
-  margin: 0 auto;
-  width: 100%;
+  margin-left: 15px !important;
   color: black !important;
 }
 
@@ -125,7 +124,8 @@ p {
   }
 
   .navbar-brand {
-  width: initial;
+    width: initial;
+
 }
   .nav > li {
     border: 1px solid;
