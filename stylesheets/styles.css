@@ -9,21 +9,11 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
-section {
-  padding:10px;
-}
-
-section > div {
-  border: 2px solid black;
-  background-color: gray;
-}
-
 div {
    clear: both;
 }
 
 div > div {
-  width: 150px;
   text-align: center;
   font-size: 19px;
   border-color: black !important;
@@ -95,6 +85,12 @@ p {
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.container > div {
+  border: 1px solid;
+  padding: 10px;
+  margin: 2px;
 }
 
 @media (min-width: 992px) {
